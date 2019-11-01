@@ -11,11 +11,12 @@ package javaapplication19;
  */
 public class JavaApplication19 {
 
-    /**
-     * @param args the command line arguments
-     */
+    public void saludar(){System.out.println("Hola eduardo"
+            + "");}
     public static void main(String[] args) {
         System.out.println("Hola");
+        JavaApplication19 j = new JavaApplication19();
+        j.saludar();;
     }
     
 }
